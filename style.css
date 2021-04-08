@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+    :root{
+        --StrongCyan: hsl(171, 66%, 44%);
+        --LightBlue: hsl(233, 100%, 69%);
+    }
+
+    body{
+        background-image: url(./images/bg-header-desktop.png);
+        background-size:cover ;
+        background-repeat: no-repeat;
+        height: 10px;
+
+    }
+
+    .headerr{
+        
+        margin-top: 120px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+ 
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+ 
+    }
+    .bbtn1{
+        background-color: var(--StrongCyan);
+        border: none;
+        border-radius: 50px;
+        padding: 20px 80px 20px 80px;
+        box-shadow: 1px 2px 8px hsla(171, 66%, 44%, 0.534);
+        color: white;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+
+    }
+    .bbtn2{
+        background-color: var(--LightBlue);
+        border: none;
+        border-radius: 50px;
+        padding: 20px 80px 20px 80px;
+        margin-left: 10px;
+        box-shadow: 1px 2px 8px hsla(233, 100%, 69%, 0.582);
+        color: white;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+
+    }
+    .herotxt h1{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    .herotxt p{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .secheader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 180px;
+    }
+    .secheader h1{
+
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 10px;
+
+    }
+    .secheader p {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .roww{
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    .consec{
+        margin-top: 90px;
+        position: relative;
+        display: flex;
+        width: 100vw;
+        height: 70vh;
+        margin-bottom: 140px;
+
+    }
+
+    .roww h1{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+
+    .roww p {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .secconsec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secconsec h1{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+
+    }
+    .secconsec p{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 90px;
+
+    }
+    .benifit{
+        margin-top: 120px ;
+        margin-bottom: 90px !important;
+    }
+    .benifit h1{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 30px;
+        font-weight:  600;
+    }
+    .benifit p {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .contentt{
+    }
+    .blcklist{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .blcklist h1{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 30px;
+        font-weight: 600 ;
+    }
+    .blcklist p {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .logos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .downbtns{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .downbtns h1{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .downbtns p {
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .fotr{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fotr h4{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 20px;
+        
+    }
+    .icons{
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .fab{
+        padding-right: 10px;
+    }
+    .lgo{
+        width: 80px;
+    }
+   
+
+    @media only screen and (max-width: 380px) {
+
+        .header{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .herotxt{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .herotxt h1{
+            font-size: 27px;
+            width: 100%;
+            text-align:center;
+        }
+        .herotxt p {
+            font-size: 17px;
+            width: fit-content;
+            text-align: center;
+        }
+
+        .hrtxt{
+            width: 100%;
+
+
+        }
+        .btns{
+            display: flex;
+            flex-direction: column;
+        }
+        .bbtn1{
+            padding: 17px 80px 17px 80px;
+            font-size: 17px;
+            font-weight: 400px;
+            margin-bottom: 30px;
+        }
+        .bbtn2{
+            padding: 17px 80px 17px 80px;
+            font-size: 17px;
+            font-weight: 400px;
+        }
+
+        .secheader h1{
+            font-size: 40px ;
+        }
+        .secheader p {
+            font-size: 17px;
+        }
+        .consec{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 90px;
+        }
+        .comp{
+            width: 300px;
+            margin-bottom: 50px;
+        }
+
+        .secconsec{
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+        .dev{
+            display: flex;
+            width: 350px;
+        }
+
+
+
+
+
+
+        .benifit{
+            display: flex;
+            flex-direction: column;
+        }
+        .contentt{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .logos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .google{
+            margin-bottom: 50px;
+        }
+        .ibm{
+            margin-bottom: 50px;
+        }
+        .microsoft{
+            margin-bottom: 50px;
+        }
+        .hewlet{
+            margin-bottom: 50px;
+        }
+
+        .downbtns{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .downbtns h1{
+            font-size: 30px;
+        }
+        .downbtns p{
+            font-size: 17px;
+        }
+
+
+
+
+
+        .fotr{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .faqs{
+            margin-bottom: 30px;
+
+        }
+        .priv{
+            margin-bottom: 30px;
+
+        }
+        .install{
+            margin-bottom: 30px;
+
+        }
+        
+    }
